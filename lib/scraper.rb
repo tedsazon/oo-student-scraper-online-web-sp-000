@@ -31,6 +31,7 @@ class Scraper
       else link.include?("blog")
         student[:blog] = blog
       end
+    end
   end
 
 end
